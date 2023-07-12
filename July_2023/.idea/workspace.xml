@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b62693-6128-4d2e-b229-747cd585a1e4" name="Changes" comment="xd">
-      <change afterPath="$PROJECT_DIR$/src/_429_N_ary_Tree_Level_Order_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_5_Longest_Palindromic_Substring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_863_All_Nodes_Distance_K_In_Binary_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Longest_Palindromic_Substring_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maximum_Confusion_2024.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2024_Maximum_Confusion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maximum_Number_of_Achievable_Transfer_Requests_1601.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1601_Maximum_Number_of_Achievable_Transfer_Requests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Minimum_Number_Of_Days_to_Make_m_bouquets_1482.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1482_Minimum_Number_Of_Days_to_Make_m_bouquets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Remove_Duplicates_From_Sorted_Array_II_80.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_80_Remove_Duplicates_From_Sorted_Array_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Single_Number_II_137.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_137_Single_Number_II.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4b62693-6128-4d2e-b229-747cd585a1e4" name="Changes" comment="xd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,13 +18,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -51,14 +39,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/grantyap/Desktop/LeetCode Problems - Java/July_2023&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/grantyap/Desktop/LeetCode Problems/July_2023/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/grantyap/Desktop/LeetCode Problems - Java/July_Problems/July_2023",
+    "onboarding.tips.debug.path": "/Users/grantyap/Desktop/LeetCode Problems/July_2023/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
