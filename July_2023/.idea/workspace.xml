@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4b62693-6128-4d2e-b229-747cd585a1e4" name="Changes" comment="xd">
+      <change afterPath="$PROJECT_DIR$/src/_429_N_ary_Tree_Level_Order_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_5_Longest_Palindromic_Substring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_863_All_Nodes_Distance_K_In_Binary_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Longest_Palindromic_Substring_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maximum_Confusion_2024.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2024_Maximum_Confusion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maximum_Number_of_Achievable_Transfer_Requests_1601.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1601_Maximum_Number_of_Achievable_Transfer_Requests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Minimum_Number_Of_Days_to_Make_m_bouquets_1482.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1482_Minimum_Number_Of_Days_to_Make_m_bouquets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Remove_Duplicates_From_Sorted_Array_II_80.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_80_Remove_Duplicates_From_Sorted_Array_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Single_Number_II_137.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_137_Single_Number_II.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="25b457bc-8735-4b4b-aac1-4a151eff1c94" />
+        <option name="url" value="https://github.com/gyap-proj/July_Problems.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SFsFzsSf51G6EHDVfk4Z9WP0a7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/grantyap/Desktop/LeetCode Problems - Java/July_2023&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/grantyap/Desktop/LeetCode Problems/July_2023/src/Main.java&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4b62693-6128-4d2e-b229-747cd585a1e4" name="Changes" comment="" />
+      <created>1688753563555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688753563555</updated>
+    </task>
+    <task id="LOCAL-00001" summary="xd">
+      <option name="closed" value="true" />
+      <created>1689095734407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689095734407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="xd" />
+    <option name="LAST_COMMIT_MESSAGE" value="xd" />
+  </component>
+</project>
