@@ -13,13 +13,14 @@ public class _36_Valid_Sudoku {
             row.add(new HashSet<>());
             col.add(new HashSet<>());
             three.add(new HashSet<>());
+            for(int j = 1; j < 10; j++){
+                row.get(i).add(j);
+                col.get(i).add(j);
+                three.get(i).add(j);
+            }
         }
 
-        for(int i = 1; i < 10; i++){
-            row.get(i-1).add(i);
-            col.get(i-1).add(i);
-            three.get(i-1).add(i);
-        }
+
         int count = 0;
         for(int i = 0; i < 9; i++){
             for(int j = 0; j < 9; j++){
@@ -48,7 +49,7 @@ public class _36_Valid_Sudoku {
                     row.get(i).remove(xd);
                 }
             }
-            count = (i-1)/3;
+            count = (i+1)/3;
         }
         return true;
 

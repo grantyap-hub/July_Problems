@@ -2,26 +2,27 @@ public class _1482_Minimum_Number_Of_Days_to_Make_m_bouquets {
 
 
     public static int minDays(int[] bloomDay, int m, int k){
-        if(bloomDay.length < m * k){
-            return -1;
-        }
-        int left = 1, right = 1;
+//        if(bloomDay.length < m * k){
+//            return -1;
+//        }
+        int left = 1, right = 1, ans = -1;
 
         for(int i : bloomDay){
             left = Math.min(left, i);
             right = Math.max(right, i);
         }
 
-        while(left < right){
+        while(left <= right){
             int mid = left + (right-left)/2;
 
             if(canmake(mid, m, k, bloomDay)){
-                right = mid;
+                ans = mid;
+                right = mid-1;
             } else{
                 left = mid + 1;
             }
         }
-        return left;
+        return ans;
     }
 
     public static boolean canmake(int val, int bouquet, int flowers, int[] bloom){
