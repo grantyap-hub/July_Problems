@@ -5,51 +5,16 @@ public class _36_Valid_Sudoku {
 
     public boolean isValidSudoku(char[][] board){
 
-        ArrayList<HashSet<Integer>> row = new ArrayList<>();
-        ArrayList<HashSet<Integer>> col = new ArrayList<>();
-        ArrayList<HashSet<Integer>> three = new ArrayList<>();
+        Set<String> seen = new HashSet<>();
 
-        for(int i = 0; i < 9; i++){
-            row.add(new HashSet<>());
-            col.add(new HashSet<>());
-            three.add(new HashSet<>());
-            for(int j = 1; j < 10; j++){
-                row.get(i).add(j);
-                col.get(i).add(j);
-                three.get(i).add(j);
-            }
-        }
-
-
-        int count = 0;
         for(int i = 0; i < 9; i++){
             for(int j = 0; j < 9; j++){
-                int xd = board[i][j] - '0';
-                if(Character.isDigit(board[i][j])){
-                    if(j < 3){
-                        if(!three.get(count*3).contains(xd))
-                            return false;
-                        three.get(count*3).remove(xd);
-                    } else if(j < 6){
-                        if(!three.get(count*3 + 1).contains(xd))
-                            return false;
-                        three.get(count*3 + 1).remove(xd);
-                    } else if(j < 9){
-                        if(!three.get(count*3 + 2).contains(xd))
-                            return false;
-                        three.get(count*3 + 2).remove(xd);
-                    }
-
-                    if(!col.get(j).contains(xd))
+                if(board[i][j] != '.'){
+                    String b = "(" + board[i][j] + ")";
+                    if(!seen.add(b + i) || !seen.add(b + j) || !seen.add(i/3 + b + j/3))
                         return false;
-                    col.get(j).remove(xd);
-
-                    if(!row.get(i).contains(xd))
-                        return false;
-                    row.get(i).remove(xd);
                 }
             }
-            count = (i+1)/3;
         }
         return true;
 
